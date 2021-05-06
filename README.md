@@ -1,4 +1,4 @@
-# freeCodeCamp-clone
+# FreeCodeCamp-clone
 
 Clone of FreeCodeCamp
 
