@@ -1,7 +1,5 @@
 :root {
     /* Redefining the default */
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
 
     /* Colors */
@@ -180,7 +178,6 @@ input[type="search"]::-webkit-search-cancel-button {
 header {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
     justify-content:center;
 }
 
@@ -217,20 +214,44 @@ header p {
     display: inline;
 }
 
-.post__image img {
-    position: relative;
+.tag {
+    font-weight: bold;
 }
 
-.post__image img {
-    position: fixed;
-    height: 40.4rem;
-    width: 57.7rem;
-    left: 14rem;
+.post {
+    height: 100%;
+}
+.post__image {
+    margin: 0;
 }
 
 
+.post__image img {
+    width: 100%;
+    height: 100%
+}
 
+.post__content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4rem;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1.4rem;
+}
 
+.quote {
+    font-size: 1rem;
+    border-left: 3px solid var(--dark-blue);
+    padding-left: 2rem;
+    text-align: justify;
+    font-style: italic;
+}
+
+.post__text {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+}
 
 
 
