@@ -210,7 +210,7 @@ header {
     display: flex;
 }
 
-header p {
+header > p {
     display: inline;
 }
 
@@ -251,12 +251,20 @@ header p {
 .post__text {
     font-size: 1.2rem;
     line-height: 1.2rem;
+    margin: 2rem 7rem;
 }
 
+.author-info {
+    margin: 3rem 7rem;
+    display: flex;
+    position: relative;
+}
 
+.name {
+    margin: 0.3rem 1rem;
+    top: 10px;
+}
 
-
-
-
-
-
+.line-h {
+    width: 80%;
+}
