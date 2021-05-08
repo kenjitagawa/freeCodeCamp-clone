@@ -90,8 +90,6 @@ body {
 }
 
 input[type="search"]::-webkit-search-cancel-button {
-
-    /* Remove default */
     -webkit-appearance: none;
 }
 
@@ -210,6 +208,10 @@ header {
     display: flex;
 }
 
+.author-card > img {
+    margin-bottom: 1.3rem;
+}
+
 header p {
     display: inline;
 }
@@ -227,7 +229,7 @@ header p {
 }
 
 
-.post__image img {
+.post__image > img {
     width: 100%;
     height: 100%
 }
