@@ -210,7 +210,7 @@ header {
     display: flex;
 }
 
-header > p {
+header p {
     display: inline;
 }
 
@@ -221,6 +221,7 @@ header > p {
 .post {
     height: 100%;
 }
+
 .post__image {
     margin: 0;
 }
@@ -263,6 +264,10 @@ header > p {
 .name {
     margin: 0.3rem 1rem;
     top: 10px;
+}
+
+.post__text {
+    display: block;
 }
 
 .line-h {
